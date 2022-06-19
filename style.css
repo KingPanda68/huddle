@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@media screen and (min-width:1px) and (max-width:375) {
+    main{
+        flex-direction: column;
+    }
+    .first-container, .second-container, .third-container, .fourth-container{
+        flex-direction: column;
+    }
+    .first{
+        background: url(/bg-hero-mobile.svg);
+        background-color: hsl(193, 100%, 96%);
+    }
+    .foot{
+        flex-direction: column;
+    }
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+.first{
+    background: url(/bg-hero-desktop.svg);
+    background-color: hsl(193, 100%, 96%);
+}
+.first-container{
+    display: flex;
+    margin-bottom: 50px;
+}
+.head{
+    margin: 5%;
+}
+.try{
+    float: right;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    border: none;
+    border-radius: 30px;
+    padding: 15px;
+    background-color: white;
+    width: 10%;
+}
+.second-container{
+    display: flex;
+    border: solid 1px hsl(208, 11%, 55%);
+    margin: 7% 5% 0 5%;
+    border-radius: 15px;
+}
+.third-container {
+    display: flex;
+    border: solid 1px hsl(208, 11%, 55%);
+    margin: 1% 5% 0 5%;
+    border-radius: 15px;
+}
+.fourth-container {
+    display: flex;
+    border: solid 1px hsl(208, 11%, 55%);
+    margin: 1% 5% 0 5%;
+    border-radius: 15px;
+}
+h2{
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+p{
+    font-family: 'Open Sans';
+    font-size: 18px;
+}
+.huddle{
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 30px;
+}
+.get{
+    border-radius: 22px;
+    border: none;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    font-family: 'Open Sans';
+    padding: 17px;
+    width: 40%;
+    margin-top: 50px;
+}
+.first-text{
+    margin: 10% 5%;
+    height: auto;
+    padding: auto;
+}
+.first-header{
+    font-size: 50px;
+}
+.sec_pic, .third_pic, .last_pic{
+    width: 85vh;
+}
+.second-text, .last-text, .third-text{
+    margin: 15% 10%;
+    height: auto;
+    padding: auto;
+}
+.grow, .flow, .users{
+    font-size: 35px;
+}
+.generate, .you, .last{
+    margin-top: 20px;
+}
+footer{
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+    margin-top: 18%;
+}
+.foot{
+    display: flex;
+}
+.foot-logo{
+    filter: opacity(0.4) drop-shadow(0 0 0 white);
+    margin-left: 8%;
+    margin-top: 10%;
+}
+.location, .phone, .mail{
+    display: flex;
+    padding: 10px;
+}
+.first-foot, .second-foot, .third-foot, .fourth-foot{
+    margin: 2% 0 0 8%;
+    padding: 10px;
+    font-size: 18px;
+    line-height: 30px;
+}
+.foot-img{
+    height: 22px;
+    margin-right: 3%;
+}
+.first-foot{
+    width: 60%;
+}
+.second-foot, .third-foot, .fourth-foot{
+    width: 10%;
+}
+.social{
+    display: flex;
+    height: 50px;
+    margin-bottom: 90%;
+    margin-right: 30%;
+}
+.copy{
+    font-size: 10px;
+}
